@@ -9,7 +9,7 @@ import { ArticleComponent} from './article/article.component';
 
 
 const routes: Routes = [
-    { path: "", redirectTo: "/personel", pathMatch: "full" },
+    { path: "", redirectTo: "/post", pathMatch: "full" },
     { path: "home", loadChildren: () => import("~/app/home/home.module").then((m) => m.HomeModule) },
     // { path: "home", loadChildren: "./home/home.module#HomeModule" },
     { path: "login", component: LoginComponent },

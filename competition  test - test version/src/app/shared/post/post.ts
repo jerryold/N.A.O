@@ -3,5 +3,7 @@ export class Post {
     description:string;
     ingredient: string;
     price:number;
+    latitude:number;
+    longitude:number;
       
 }

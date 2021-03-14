@@ -20,6 +20,8 @@ export class PostService {
                     description: post.description,
                     ingredient: post.ingredient,
                     price: post.price,
+                    latitude:post.latitude,
+                    longitude:post.longitude,                   
                     
                 })
             }),

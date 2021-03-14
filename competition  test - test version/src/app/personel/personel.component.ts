@@ -3,6 +3,7 @@ import * as Geolocation from "nativescript-geolocation";
 
 
 
+
 @Component({
     selector: "Personel",
     templateUrl: "./personel.component.html",
